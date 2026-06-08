@@ -1,0 +1,48 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+.cards {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.cards-title h3 {
+  text-transform: uppercase;
+  color: #d77474;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+.cards-title h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+}
+.card {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.308);
+}
+.cards-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.cards-btn button {
+  padding: 20px 40px;
+  color: white;
+  background-color: #ac1313;
+  text-transform: uppercase;
+  line-height: 22px;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.price{
+    font-weight: 600;
+}
