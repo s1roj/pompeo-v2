@@ -2,6 +2,7 @@
   text-decoration: none;
   list-style: none;
 }
+
 .cards {
   display: flex;
   margin: 0 auto;
